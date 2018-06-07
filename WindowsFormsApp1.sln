@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{EB8319A2-9F82-4239-86D4-FB50DC0A1BC6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "urunkayitotomasyon", "WindowsFormsApp1\urunkayitotomasyon.csproj", "{EB8319A2-9F82-4239-86D4-FB50DC0A1BC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

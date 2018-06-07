@@ -33,17 +33,24 @@
             this.yeniKayıtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.işlemlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label16 = new System.Windows.Forms.Label();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label15 = new System.Windows.Forms.Label();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.menuStrip3 = new System.Windows.Forms.MenuStrip();
@@ -86,13 +93,6 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -162,6 +162,26 @@
             this.panel2.Size = new System.Drawing.Size(1159, 195);
             this.panel2.TabIndex = 65;
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label13.Location = new System.Drawing.Point(562, 45);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(21, 24);
+            this.label13.TabIndex = 80;
+            this.label13.Text = "0";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label17.Location = new System.Drawing.Point(478, 45);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(86, 24);
+            this.label17.TabIndex = 79;
+            this.label17.Text = "Toplam:";
+            // 
             // panel6
             // 
             this.panel6.Controls.Add(this.label19);
@@ -173,6 +193,26 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(416, 74);
             this.panel6.TabIndex = 77;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label19.Location = new System.Drawing.Point(55, 39);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(54, 24);
+            this.label19.TabIndex = 82;
+            this.label19.Text = "Bitiş:";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label18.Location = new System.Drawing.Point(3, 8);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(106, 24);
+            this.label18.TabIndex = 81;
+            this.label18.Text = "Başlangıç:";
             // 
             // button4
             // 
@@ -213,6 +253,16 @@
             this.panel5.Size = new System.Drawing.Size(359, 37);
             this.panel5.TabIndex = 76;
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label16.Location = new System.Drawing.Point(12, 6);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(87, 24);
+            this.label16.TabIndex = 82;
+            this.label16.Text = "Telefon:";
+            // 
             // textBox15
             // 
             this.textBox15.BackColor = System.Drawing.SystemColors.Info;
@@ -243,6 +293,16 @@
             this.panel4.TabIndex = 75;
             this.panel4.Visible = false;
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label15.Location = new System.Drawing.Point(56, 8);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(43, 24);
+            this.label15.TabIndex = 83;
+            this.label15.Text = "No:";
+            // 
             // textBox14
             // 
             this.textBox14.BackColor = System.Drawing.SystemColors.Info;
@@ -272,6 +332,16 @@
             this.panel3.Size = new System.Drawing.Size(359, 37);
             this.panel3.TabIndex = 71;
             this.panel3.Visible = false;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label14.Location = new System.Drawing.Point(56, 7);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(42, 24);
+            this.label14.TabIndex = 84;
+            this.label14.Text = "Ad:";
             // 
             // textBox13
             // 
@@ -314,34 +384,34 @@
             this.adToolStripMenuItem,
             this.telefonToolStripMenuItem});
             this.araToolStripMenuItem.Name = "araToolStripMenuItem";
-            this.araToolStripMenuItem.Size = new System.Drawing.Size(40, 21);
+            this.araToolStripMenuItem.Size = new System.Drawing.Size(41, 21);
             this.araToolStripMenuItem.Text = "Ara";
             // 
             // noToolStripMenuItem
             // 
             this.noToolStripMenuItem.Name = "noToolStripMenuItem";
-            this.noToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.noToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.noToolStripMenuItem.Text = "No";
             this.noToolStripMenuItem.Click += new System.EventHandler(this.noToolStripMenuItem_Click);
             // 
             // adToolStripMenuItem
             // 
             this.adToolStripMenuItem.Name = "adToolStripMenuItem";
-            this.adToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.adToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.adToolStripMenuItem.Text = "Ad";
             this.adToolStripMenuItem.Click += new System.EventHandler(this.adToolStripMenuItem_Click);
             // 
             // telefonToolStripMenuItem
             // 
             this.telefonToolStripMenuItem.Name = "telefonToolStripMenuItem";
-            this.telefonToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.telefonToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.telefonToolStripMenuItem.Text = "Telefon";
             this.telefonToolStripMenuItem.Click += new System.EventHandler(this.telefonToolStripMenuItem_Click);
             // 
             // tariharaligiToolStripMenuItem
             // 
             this.tariharaligiToolStripMenuItem.Name = "tariharaligiToolStripMenuItem";
-            this.tariharaligiToolStripMenuItem.Size = new System.Drawing.Size(89, 21);
+            this.tariharaligiToolStripMenuItem.Size = new System.Drawing.Size(91, 21);
             this.tariharaligiToolStripMenuItem.Text = "Tarih Aralığı";
             this.tariharaligiToolStripMenuItem.Click += new System.EventHandler(this.tariharaligiToolStripMenuItem_Click);
             // 
@@ -371,14 +441,14 @@
             // ekleToolStripMenuItem
             // 
             this.ekleToolStripMenuItem.Name = "ekleToolStripMenuItem";
-            this.ekleToolStripMenuItem.Size = new System.Drawing.Size(43, 21);
+            this.ekleToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
             this.ekleToolStripMenuItem.Text = "Ekle";
             this.ekleToolStripMenuItem.Click += new System.EventHandler(this.ekleToolStripMenuItem_Click);
             // 
             // güncelleToolStripMenuItem
             // 
             this.güncelleToolStripMenuItem.Name = "güncelleToolStripMenuItem";
-            this.güncelleToolStripMenuItem.Size = new System.Drawing.Size(69, 21);
+            this.güncelleToolStripMenuItem.Size = new System.Drawing.Size(71, 21);
             this.güncelleToolStripMenuItem.Text = "Güncelle";
             this.güncelleToolStripMenuItem.Click += new System.EventHandler(this.güncelleToolStripMenuItem_Click);
             // 
@@ -392,7 +462,7 @@
             // içeriğiTemizleToolStripMenuItem
             // 
             this.içeriğiTemizleToolStripMenuItem.Name = "içeriğiTemizleToolStripMenuItem";
-            this.içeriğiTemizleToolStripMenuItem.Size = new System.Drawing.Size(102, 21);
+            this.içeriğiTemizleToolStripMenuItem.Size = new System.Drawing.Size(104, 21);
             this.içeriğiTemizleToolStripMenuItem.Text = "İçeriği Temizle";
             this.içeriğiTemizleToolStripMenuItem.Click += new System.EventHandler(this.içeriğiTemizleToolStripMenuItem_Click);
             // 
@@ -700,76 +770,6 @@
             this.dataGridView1.TabIndex = 66;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label17.Location = new System.Drawing.Point(478, 45);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(86, 24);
-            this.label17.TabIndex = 79;
-            this.label17.Text = "Toplam:";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.Location = new System.Drawing.Point(562, 45);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(21, 24);
-            this.label13.TabIndex = 80;
-            this.label13.Text = "0";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label18.Location = new System.Drawing.Point(3, 8);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(106, 24);
-            this.label18.TabIndex = 81;
-            this.label18.Text = "Başlangıç:";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label19.Location = new System.Drawing.Point(55, 39);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(54, 24);
-            this.label19.TabIndex = 82;
-            this.label19.Text = "Bitiş:";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label16.Location = new System.Drawing.Point(12, 6);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(87, 24);
-            this.label16.TabIndex = 82;
-            this.label16.Text = "Telefon:";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label15.Location = new System.Drawing.Point(56, 8);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(43, 24);
-            this.label15.TabIndex = 83;
-            this.label15.Text = "No:";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label14.Location = new System.Drawing.Point(56, 7);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(42, 24);
-            this.label14.TabIndex = 84;
-            this.label14.Text = "Ad:";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -782,7 +782,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Urun Kayıt";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel2.ResumeLayout(false);
